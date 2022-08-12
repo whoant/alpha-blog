@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AlphaBlog</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+  </head>
+
+  <body class="d-flex flex-column">
+  <%= render 'layouts/navigation' %>
+  <%= render 'layouts/messages' %>
+  <div id="page-content">
+    <%= render 'layouts/messages' %>
+    <%= yield %>
+  </div>
+  <%= render 'layouts/footer' %>
+  </body>
+</html>
