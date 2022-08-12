@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.2'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
+gem 'figaro'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 # Use Puma as the app server
